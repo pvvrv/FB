@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фитнес тренер</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        footer {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+        }
+        nav, footer {
+            background-color: #DC3545; /* Красный цвет для header и footer */
+            color: white; /* Белый цвет текста */
+        }
+
+        main {
+            background-color: rgba(98, 93, 93, 0.98); /* Серый фон для основной части */
+            color: white; /* Белый цвет текста */
+            min-height: 100vh;
+        }
+
+        .clr{
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<nav class="navbar navbar-expand-lg navbar-light  ">
+    <div class="container">
+        <img class="img-fluid" style="max-width: 60px" src="../imgs/logo.svg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link fs-5 clr" href="../index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 clr" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 clr" href="aboutus.html">О мне</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 clr" href="form.html">Обратная связь</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section class="pricing-section py-5">
+        <div class="container">
+            <h1 class="text-center fs-1">Мои цены</h1>
+            <p class="text-center fs-5">Я предлагаю конкурентные цены для широкого спектра услуг, обеспечивая высокое качество тренировок.</p>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class=" mb-4 p-1" style="border: 2px solid cornflowerblue">
+                        <div class="card-header bg-primary text-white text-center p-3">
+                            <h3 class="">Тренировка</h3>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title fs-2">3000 ₽/сессия</h4>
+                            <p class="card-text fs-5">Индивидуальные тренировки, адаптированные под ваши цели.</p>
+                            <a href="#" class="btn btn-primary fs-5">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class=" mb-4 p-1" style="border: 2px solid cornflowerblue">
+                        <div class="card-header bg-success text-white text-center p-3">
+                            <h3 class="">Групповые занятия</h3>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title fs-2">1500 ₽/сессия</h4>
+                            <p class="card-text fs-5">Участие в групповых тренировках для мотивации и разнообразия.</p>
+                            <a href="#" class="btn btn-success fs-5">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class=" mb-4 p-1" style="border: 2px solid cornflowerblue">
+                        <div class="card-header bg-info text-white text-center p-3">
+                            <h3>Фитнес консультации</h3>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class=" fs-2 card-title">Бесплатно</h4>
+                            <p class="card-text fs-5">Консультации по планированию тренировок.</p>
+                            <a href="#" class="btn btn-info fs-5" style="color: white">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <p class="fs-5">Мои цены доступны и конкурентоспособны на рынке, при этом мы гарантируем высокое качество предоставляемых услуг и индивидуальный подход к каждому клиенту.</p>
+                <a href="form.html" class="btn btn-lg fs-5" style="background-color: #DC3545; color: white">Записаться на тренировку</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer class="mt-auto">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <p><i class="fab fa-telegram fs-4"></i> Телеграм</p>
+            </div>
+            <div class="col-md-3">
+                <p><i class="fab fa-vk fs-4"></i> ВК</p>
+            </div>
+            <div class="col-md-3">
+                <p><i class="fab fa-instagram fs-4"></i> Инстаграм</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

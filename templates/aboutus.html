@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фитнес тренер</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        footer {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+        }
+        nav, footer {
+            background-color: #DC3545; /* Красный цвет для header и footer */
+            color: white; /* Белый цвет текста */
+        }
+
+        main {
+            background-color: rgba(98, 93, 93, 0.98); /* Серый фон для основной части */
+            color: white; /* Белый цвет текста */
+            min-height: 100vh;
+        }
+
+        .clr{
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<nav class="navbar navbar-expand-lg navbar-light  ">
+    <div class="container">
+        <img class="img-fluid" style="max-width: 60px" src="../imgs/logo.svg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link fs-5 clr" href="../index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 clr" href="prices.html">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 clr" href="#">О мне</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 clr" href="form.html">Обратная связь</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section class="goals-section text-center py-5">
+        <div class="container">
+            <h1 class="fs-1">Ваши цели - Моя задача</h1>
+            <p class="fs-4">Фитнес тренер Александр Пивоваров готов помочь вам достичь самых разных целей и результатов.</p>
+        </div>
+    </section>
+
+    <section class="trainer-skills-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="fs-1">Цели и задачи</h2>
+                    <p class="fs-5">Не важно, какую цель вы ставите перед собой: сбросить вес, набрать мышечную массу, улучшить выносливость или просто улучшить общее состояние здоровья — Александр Пивоваров готов помочь вам достичь желаемых результатов.</p>
+                    <p class="fs-5">Он разработает для вас индивидуальную программу тренировок и даст рекомендации по питанию, которые будут соответствовать вашим целям и образу жизни.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="../imgs/strong.jpg" class="img-fluid rounded" alt="Навыки тренера">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achieve-goals-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 fs-1">Как я помогу вам достичь целей:</h2>
+            <div class="row">
+                <div class="col-md-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-dumbbell fa-4x mb-3" style="color: black"></i>
+                            <h3 class="fs-2">Персонализированные тренировки</h3>
+                            <p class="fs-5">Индивидуальные тренировочные программы, подготовленные под ваши цели и потребности.</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-utensils fa-4x mb-3" style="color: green"></i>
+                            <h3 class="fs-2">Рекомендации по питанию</h3>
+                            <p class="fs-5">Помощь в разработке плана питания, соответствующего вашим тренировкам и целям.</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-heartbeat fa-4x mb-3" style="color: #DC3545"></i>
+                            <h3 class="fs-2">Мотивация и поддержка</h3>
+                            <p class="fs-5">Постоянная мотивация и поддержка со стороны тренера для достижения ваших целей.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer class=" mt-auto">
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <p><i class="fab fa-telegram fs-4"></i> Телеграм</p>
+            </div>
+            <div class="col-md-3">
+                <p><i class="fab fa-vk fs-4"></i> ВК</p>
+            </div>
+            <div class="col-md-3">
+                <p><i class="fab fa-instagram fs-4"></i> Инстаграм</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
